@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+	<BaseInfo>
+        <InvisibleToUser>1</InvisibleToUser>
+		<!--<Serializable>0</Serializable>-->
+    </BaseInfo>
+
+    <ModelInfo>
+        <BuildFrames>5</BuildFrames>
+        <AnimationFrames>7</AnimationFrames>
+        <MaterialID>2</MaterialID>
+    </ModelInfo>
+
+</info>

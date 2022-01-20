@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+	<BaseInfo>
+		<Size>3</Size>
+        <Tier>4</Tier>
+        <SoundOnSelect>Quarry</SoundOnSelect>
+    </BaseInfo>
+
+    <PermaAudioInfo>
+        <ClipName>QuarryLoop</ClipName>
+        <Volume>1</Volume>
+        <MaxDistance>30</MaxDistance>
+    </PermaAudioInfo>
+
+    
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.UraniumQuarry = Uranium Quarry
+           ObjectType.UraniumQuarry.Desc = It is impressive how such a beautiful mineral can be so scarce in this area.
+       </Content>
+    </LocalizationInfo>
+
+
+    <SuggestedBuildingsInfo>
+        <SuggestedTypes>Depot1x3,Depot2x2,Depot3x3,Inserter,LongInserter,PowerPole</SuggestedTypes>
+    </SuggestedBuildingsInfo>
+
+    <AutomaticWorkshopInfo>
+        <Category>Refining</Category>
+        <SubCategory>Quarry</SubCategory>
+        <AdditionalText>A</AdditionalText>
+
+        <OutputSpots>1,0.375,-1</OutputSpots>
+        <SpawnOutputBoxes>1</SpawnOutputBoxes>
+        <AnimationMode>1</AnimationMode>
+        <EnergyConsumption>1</EnergyConsumption>
+    </AutomaticWorkshopInfo>
+
+    <PowerPoleInfo>
+        <MaxCapacity>5</MaxCapacity>
+        <SpawnConnector>1</SpawnConnector>
+        <PowerConnectorPosition>-1.333,0,1.333</PowerConnectorPosition>
+        <PowerConnectionHeight>1</PowerConnectionHeight>
+    </PowerPoleInfo>
+
+    <ModelInfo>
+        <BuildFrames>7</BuildFrames>
+        <AnimationSpeed>1.5</AnimationSpeed>
+        <AnimationFrames>4</AnimationFrames>
+        <Height>3</Height>
+    </ModelInfo>
+
+
+    <WorkshopRecipeInfo>
+        <Outputs>MinedUranium</Outputs>
+        <Inputs></Inputs>
+        <ProductionTime>60</ProductionTime>
+        <Workshops>UraniumQuarry</Workshops>
+    </WorkshopRecipeInfo>
+
+
+	<BuildingRecipeInfo>
+        <Ingredients>CopperCoil,MachineParts,SteelBeam</Ingredients>
+        <BuildAbove>UraniumVein</BuildAbove>
+        <RequiredToolLevel>3</RequiredToolLevel>
+    </BuildingRecipeInfo>
+</info>

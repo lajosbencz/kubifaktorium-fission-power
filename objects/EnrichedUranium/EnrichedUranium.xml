@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+    <BaseInfo>
+        <Tier>5</Tier>
+    </BaseInfo>
+    
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.EnrichedUranium = Enriched Uranium
+           ObjectType.EnrichedUranium.Desc = Packed tight
+           Recipe.EnrichedUranium = Uranium enrichment
+       </Content>
+    </LocalizationInfo>
+
+    <ItemInfo>
+        <StackCount>6</StackCount>
+        <StackType>Pyramid</StackType>
+        <StackDist>4.25</StackDist>
+        <StackHeight>1.8</StackHeight>
+        <ProductionTargetAmount>30</ProductionTargetAmount>
+		<FuelValue>2500</FuelValue>
+    </ItemInfo>
+
+    <WorkshopRecipeInfo>
+        <Outputs>EnrichedUranium,YellowCake</Outputs>
+        <Probabilities>0.5,0.5</Probabilities>
+        <Inputs>2*YellowCake</Inputs>
+        <CustomName>Recipe.EnrichedUranium</CustomName>
+        <ProductionTime>90</ProductionTime>
+        <Workshops>Centrifuge</Workshops>
+        <ForceIconFromInput>1</ForceIconFromInput>
+    </WorkshopRecipeInfo>
+
+</info>

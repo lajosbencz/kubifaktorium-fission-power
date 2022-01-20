@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+    <BaseInfo>
+        <Tier>5</Tier>
+        <Size>5</Size>
+        <SoundOnSelect>Electricity</SoundOnSelect>
+        <AdditionalSpawns>FissionPlantGlow,0,0,0,0</AdditionalSpawns>
+    </BaseInfo>
+
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.FissionPlant = Fission plant
+           ObjectType.FissionPlant.Desc = It's just a fancy steam engine.
+       </Content>
+    </LocalizationInfo>
+    <SuggestedBuildingsInfo>
+        <SuggestedTypes>Inserter,LongInserter,PowerPole</SuggestedTypes>
+    </SuggestedBuildingsInfo>
+
+    
+    <FuelBasedPowerGeneratorInfo>
+        <Category>Energy</Category>
+        <InputSpots>1,0.0875,-2</InputSpots>
+        <SpawnInputBoxes>1</SpawnInputBoxes>
+        <Efficiency>10</Efficiency>
+        <ConversionTime>30</ConversionTime>
+        <DownIndicationArrow>1,0,-2</DownIndicationArrow>
+        <AnimationMode>1</AnimationMode>
+    </FuelBasedPowerGeneratorInfo>
+
+    <PowerPoleInfo>
+        <MaxCapacity>1000</MaxCapacity>
+        <SpawnConnector>1</SpawnConnector>
+        <PowerConnectorPosition>1.25,1,1.25</PowerConnectorPosition>
+        <PowerConnectionHeight>1.7</PowerConnectionHeight>
+        <GeneratesEnergy>1</GeneratesEnergy>
+        <IsDistributor>1</IsDistributor>
+    </PowerPoleInfo>
+
+
+    <BuildingRecipeInfo>
+		<Ingredients>2*CopperCoil,2*MachineParts,ModernBuildingPart,ElectronicComponents</Ingredients>
+        <RequiredToolLevel>3</RequiredToolLevel>
+	</BuildingRecipeInfo>
+
+    <ModelInfo>
+		<SpecialPrefabs>Smoke,-1.25,1.8,1.25</SpecialPrefabs>
+        <BuildFrames>5</BuildFrames>
+        <AnimationFrames>7</AnimationFrames>
+    </ModelInfo>
+
+    <RecommendationInfo>
+        <Items>FissionPlant,15*PowerPole</Items>
+        <ShowInCampaign>0</ShowInCampaign>
+        <Reward>250</Reward>
+        <OverrideMinimumTier>4</OverrideMinimumTier>
+    </RecommendationInfo>
+</info>

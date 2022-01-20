@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <ItemInfo>
+        <StackCount>4</StackCount>
+        <HighStackCount>8</HighStackCount>
+        <StackHeight>6.25</StackHeight>
+        <StackDist>2.25</StackDist>
+        <StackType>Beside</StackType>
+        <Category>MetalOre</Category>
+    </ItemInfo>
+    
+    <BaseInfo>
+        <Tier>4</Tier>
+    </BaseInfo>
+
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.MinedUranium = Uranium Ore
+           ObjectType.MinedUranium.Desc = One might even be tempted to taste it...
+       </Content>
+    </LocalizationInfo>
+
+</info>

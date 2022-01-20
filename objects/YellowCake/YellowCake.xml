@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <BaseInfo>
+        <Tier>5</Tier>
+    </BaseInfo>
+    
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.YellowCake = Yellow Cake
+           ObjectType.YellowCake.Desc = Despite the name, I wouldn't give it a taste
+       </Content>
+    </LocalizationInfo>
+
+    <ItemInfo>
+        <StackCount>4</StackCount>
+        <StackType>Beside</StackType>
+        <StackHeight>6.25</StackHeight>
+        <StackDist>2.75</StackDist>
+        <OverrideExportFalse>1</OverrideExportFalse>
+    </ItemInfo>
+
+    <WorkshopRecipeInfo>
+        <Outputs>YellowCake,CrushedRock</Outputs>
+        <Probabilities>0.7,0.3</Probabilities>
+        <Inputs>2*CrushedUranium,CrushedLimonite</Inputs>
+        <ProductionTime>120</ProductionTime>
+        <Workshops>MetalMixingFurnace</Workshops>
+        <ForceIconFromInput>1</ForceIconFromInput>
+    </WorkshopRecipeInfo>
+
+</info>

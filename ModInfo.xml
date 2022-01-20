@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="info.xsd">
+    <UserModInfo>
+        <ModName>FissionPower</ModName>
+        <Version>0.11</Version>
+    </UserModInfo>
+    <LocalizationInfo>
+        <Language>English</Language>
+        <Content>
+            Mod.FissionPower = Fission Power
+            Mod.FissionPower.Desc = Adds fission power with supply chain.
+        </Content>
+    </LocalizationInfo>
+    <UserModAuthor>
+        <AuthorName>lazos</AuthorName>
+        <Email>lazos@lazos.me</Email>
+    </UserModAuthor>
+</info>

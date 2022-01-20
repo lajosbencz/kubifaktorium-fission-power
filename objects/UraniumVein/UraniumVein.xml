@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+
+	<BaseInfo>
+		<Tier>3</Tier>
+		<Size>3</Size>
+		<Selectable>1</Selectable>
+		<SoundOnSelect>MineStone</SoundOnSelect>
+	</BaseInfo>
+
+	<LocalizationInfo>
+		<Language>English</Language>
+		<Content>
+			ObjectType.UraniumVein = Uranium Ore vein
+			ObjectType.UraniumVein.Desc =  Beiträge Zur Chemischen Kenntniss Der Mineralkörper
+		</Content>
+	</LocalizationInfo>
+	
+	<VeinInfo/>
+	
+	<SpawnerInfo>
+		<ExactSpawnNumber>1</ExactSpawnNumber>
+		<RequireWalkable>1</RequireWalkable>
+		<SpawnMinimum>0.0004</SpawnMinimum>
+		<SpawnMinimumTier>0</SpawnMinimumTier>
+		<SpawnLevels>4</SpawnLevels>
+  		<SpawnFrequency>0.0125</SpawnFrequency>
+  		<CanSpawnOnOtherItems>0</CanSpawnOnOtherItems>
+		<!--
+		<MinY>0.35</MinY>
+		<MaxY>1</MaxY>
+		-->
+		<MinY>0</MinY>
+		<MaxY>0.5</MaxY>
+  	</SpawnerInfo>
+
+</info>

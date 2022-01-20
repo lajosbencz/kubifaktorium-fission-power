@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../info.xsd">
+    <ItemInfo>
+        <StackCount>4</StackCount>
+        <HighStackCount>8</HighStackCount>
+        <StackHeight>6.25</StackHeight>
+        <StackDist>2.5</StackDist>
+
+        <StackType>Beside</StackType>
+        <CanBeDonated>0</CanBeDonated>
+        <Category>MetalCrushedOre</Category>
+    </ItemInfo>
+
+    
+    <BaseInfo>
+        <Tier>4</Tier>
+    </BaseInfo>
+
+    
+    <LocalizationInfo>
+       <Language>English</Language>
+       <Content>
+           ObjectType.CrushedUranium = Crushed Uranium
+           ObjectType.CrushedUranium.Desc = Its striking iridescence gives it the nickname peacock ore.
+       </Content>
+    </LocalizationInfo>
+
+
+    <WorkshopRecipeInfo>
+        <Outputs>CrushedUranium</Outputs>
+        <Inputs>MinedUranium</Inputs>
+        <ProductionTime>60</ProductionTime>
+        <Workshops>OreCrusher</Workshops>
+    </WorkshopRecipeInfo>
+
+
+</info>
