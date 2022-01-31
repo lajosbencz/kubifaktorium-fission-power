@@ -29,6 +29,7 @@
         <ConversionTime>30</ConversionTime>
         <DownIndicationArrow>1,0,-2</DownIndicationArrow>
         <AnimationMode>1</AnimationMode>
+        <SpecificFuel>EnrichedUranium</SpecificFuel>
     </FuelBasedPowerGeneratorInfo>
 
     <PowerPoleInfo>
