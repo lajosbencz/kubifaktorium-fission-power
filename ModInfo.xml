@@ -3,7 +3,7 @@
       xsi:noNamespaceSchemaLocation="info.xsd">
     <UserModInfo>
         <ModName>FissionPower</ModName>
-        <Version>1.1</Version>
+        <Version>1.2</Version>
     </UserModInfo>
     <LocalizationInfo>
         <Language>English</Language>
